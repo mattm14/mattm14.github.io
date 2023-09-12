@@ -586,6 +586,9 @@ blockquote {
     padding-left: 10px;
   }
 
+  .about-me-container h2 {  
+    margin-left: 10px;
+  }
 }
 
 /*---PORTFOLIO SECTION---*/
@@ -1389,6 +1392,6 @@ font-weight: 600;
     }
 
    .nav-logo img {
-    width: 20vw;
+    width: 25vw;
    } 
   }
