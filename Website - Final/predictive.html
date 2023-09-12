@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style_predictive.css">
+  <title>Predictive Modelling - Matt May</title>  
+</head>
+
+  <!-- NavBar -->
+  <nav>
+    <div class='nav-logo'>
+      <a href="index.html#top"><img src='images/White_on_Transparent.png' id='nav-img'></a>
+    </div>
+    <ul class='nav-links'>
+      <li class="dropdown">
+        <a href = #SERVICES><button class="dropdown-button">SERVICES</button></a>
+        <div class="dropdown-content">
+          <a href="excel.html#top">Excel and VBA Automation</a>
+          <a href="dashboard.html#top">Dashboard Reporting</a>
+          <a href="data.html#top">Data Analytics</a>                 
+          <a href="#top">Predictive Modelling</a>
+        </div>
+      </li>
+      <li><a href="index.html#about-me">ABOUT ME</a></li>
+      <li><a href="index.html#PORTFOLIO">PORTFOLIO</a></li>
+      <li><a href="#FOOTER">CONTACT</a></li>
+    </ul>
+
+    <!-- Mobile Menu -->
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="#top">HOME</a></li>
+          <li><a href="#SERVICES">SERVICES</a></li>
+          <li><a href="#about-me">ABOUT ME</a></li>
+          <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+          <li><a href="#FOOTER">CONTACT</a></li>
+        </ul>
+      </div>   
+
+  </nav>
+ 
+<body>
+
+      <!-- Section 1 -->
+      <div class="section-1">    
+        <div class="text">      
+          <h2>Predictive Modelling on AFL Player Disposals</h2>
+            <p>This project aims to predict each player’s number of disposals in every AFL match for the 2023 season. 
+              Historical AFL data will be collected and used to create various features. 
+              These features will then be used to create a predictive machine learning model.
+              <p> The project has two goals:
+                <ul>
+                  <li>- To see how close on average the model can predict a player's number of disposals in a given match; and</li>
+                  <li>- to use these predictions to bet on the line offered by various betting agencies to see if the model predictions are profitable
+                    when used with a betting strategy.
+                    Further context on betting is provided <a href="#Performance"><span style="color: #323232"><b>below</b>.</span></a></p>  
+                  </li>
+                </ul>
+              </p> 
+   
+              
+          </div>
+        </div>            
+      </div> 
+
+      <div class="section-2">    
+        <div class="text">      
+          <h2>Background</h2>
+            <p>When an AFL player releases the ball, this can be done in one of two ways, either by kicking or a handball.
+               Both of these are classified as a player disposal. Betting agencies offer a line for most players each game, 
+               where they think a player might go over or under.</p>  
+          </div>
+        </div>            
+      </div> 
+
+      <div class="section-3">    
+        <div class="text">      
+          <h2>Collecting Data</h2>
+            <p>The data that will be used as a basis for this project was obtained from the
+               <a href="https://jimmyday12.github.io/fitzRoy/"><span style="color: #323232"><b>fitzRoy</b></span></a> package in R,
+                which is used for scraping and processing AFL data. This package provides comprehensive data on AFL matches,
+                including fixtures, results and player statistics.</p>  
+          </div>
+        </div>            
+      </div> 
+      
+      <div class="section-4">    
+        <div class="text">      
+          <h2>Preparing the Data</h2>
+            <p>The fitzRoy package contains functions that allow for processing, cleaning and transforming the data into specific formats
+               that can be used for data analysis. The data was checked for any errors, inconsistencies or missing values prior to exploring it further.
+              This data will ultimately be trained and fed into our machine learing model, so it was important to confirm that it was of high quality before undertaking any further analysis.</p>  
+          </div>
+        </div>            
+      </div>
+
+      <div class="section-5">    
+        <div class="text">   
+          <h2>Exploring the Data</h2>   
+            <p>After cleaning and transforming the data, the challenge was to understand what variables would be informative
+               and worthy of including in my model. To that end, I performed an exploratory data analysis, until a number of features
+                were selected for the model based on their importance.
+           The Boruta package was used as a feature slection algortithm, as it captures all features which are in some circumstances 
+          relevant to the outcome variable. The confirmed attributes are shown below, along with their mean imprortance.</p>  
+          
+          <table class = "table_feature">
+            <tr>
+              <th class = "Feature">Feature</th>
+              <th class = "meanImp">meanImp</th>
+              <th class = "decision">Decision</th>
+            </tr>
+            <tr>
+              <td data-label ="Feature">Feature 1</td>
+              <td data-label ="meanImp">21.537022</td>
+              <td data-label ="decision">Confirmed</td>
+            </tr>
+            <tr>
+              <td data-label ="Feature">Feature 2</td>
+              <td data-label ="meanImp">19.252843</td>
+              <td data-label ="decision">Confirmed</td>
+            </tr>
+            <tr>
+              <td data-label ="Feature">Feature 3</td>
+              <td data-label ="meanImp">14.549876</td>
+              <td data-label ="decision">Confirmed</td>
+            </tr>
+            <tr>
+              <td data-label ="Feature">Feature 4</td>
+              <td data-label ="meanImp">11.035390</td>
+              <td data-label ="decision">Confirmed</td>
+            </tr>
+            <tr>
+              <td data-label ="Feature">Feature 5</td>
+              <td data-label ="meanImp">10.095227</td>
+              <td data-label ="decision">Confirmed</td>
+            </tr>
+            <tr>
+              <td data-label ="Feature">Feature 6</td>
+              <td data-label ="meanImp">6.073709</td>
+              <td data-label ="decision">Confirmed</td>
+            </tr>
+            <tr>
+              <td data-label ="Feature">Feature 7</td>
+              <td data-label ="meanImp">4.889339</td>
+              <td data-label ="decision">Confirmed</td>
+            </tr>
+
+          </table>
+          <p>Our feature selection has provided a clear picture on the signficance of certain variables in our data set. 
+            Now, we'll plot the variable importance chart.</p>
+         
+        <!-- <div class="section-5-pic-1">    
+          <img src="images/Portfolio/Originals/predive_model_importance.jpg" alt="">
+        </div> -->
+          <div class="section-5-pic-2">   
+          <img src="images/Portfolio/Resize/predictive_model_variables2.jpg" alt="">
+        </div>
+        <p>Blue box plots correspond to the minimal, average and maximum Z-score of an attrribute.
+          Red and green box plots represent Z-scores of rejected and confirmed attributes respecitvely. </p>
+        </div>           
+      </div>
+
+      <div class="section-6">    
+        <div class="text">      
+          <h2>Model Selection, Training and Evaluation</h2>
+            <p>I then split the data into 75% training and 25% test sets so that I was able to predict future outcomes with past data. Several algorithms were tried, including linear regression, random forest and Gradient Boosting. For linear regression, I used grid search and cross validation to find the best tuning parameters. After several tests, I was found that linear regression performed the best.</p>  
+          </div>
+        </div> 
+        <div class="section-6-pic-1">    
+          <img src="images/Portfolio/Resize/box_pred.jpg" alt="">
+         </div>           
+      </div>
+
+      <div class="section-7" id = "Performance">    
+        <div class="text">      
+          <h2>Testing Phase</h2>
+            <p>Now we have our model which we can use to predict player disposals. Most betting agencies will offer a market
+               for each game in every round that will include a number of different players. They will set a line for each player
+                (number of disposals), and the odds for the line. An example of this is as follows:</p>
+           
+            <table class = "table1">
+              <tr>
+                <th class = "rno">Rd No.</th>
+                <th class = "match">Match</th>
+                <th class = "player">Player</th>
+                <th class = "line">Line Over</th>
+                <th class = "line">Odds Over</th>
+                <th class = "line">Line Under</th>
+                <th class = "line">Odds Under</th>
+              </tr>
+              <tr>
+                <td data-label ="Rd">12</td>
+                <td data-label ="Match">Melbourne v Sydney</td>
+                <td data-label ="Player">Clayton Oliver</td>
+                <td data-label ="Line Over">31.5</td>
+                <td data-label ="Odds Over">$1.90</td>
+                <td data-label ="Line Under">-31.5</td>
+                <td data-label ="Odds Under">$1.88</td>
+              </tr>
+              <tr>
+                <td data-label ="Rd">12</td>
+                <td data-label ="Match">Melbourne v Sydney</td>
+                <td data-label ="Player">Jack Viney</td>
+                <td data-label ="Line Over">27.5</td>
+                <td data-label ="Odds Over">$1.89</td>
+                <td data-label ="Line Under">-27.5</td>
+                <td data-label ="Odds Under">$1.88</td>
+              </tr>
+              <tr>
+                <td data-label ="Rd">12</td>
+                <td data-label ="Match">Melbourne v Sydney</td>
+                <td data-label ="Player">Callum Mills</td>
+                <td data-label ="Line Over">24.5</td>
+                <td data-label ="Odds Over">$1.92</td>
+                <td data-label ="Line Under">-24.5</td>
+                <td data-label ="Odds Under">$1.79</td>
+              </tr>
+            </table>
+          
+              <p>If our model predicts that Clayton Oliver will have a total of 30 disposals for the match, Jack Viney 28 disposals
+                 and Callum Mills 21 disposals, then we would bet on the line under, over and under respecitvely, like so:</p>
+
+                 <table class = "table2">
+                  <tr>
+                    <th class = "rno">Rd No.</th>
+                    <th class = "match">Match</th>
+                    <th class = "player">Player</th>
+                    <th class = "line">Line Over</th>
+                    <th class = "line">Odds Over</th>
+                    <th class = "line">Line Under</th>
+                    <th class = "line">Odds Under</th>
+                    <th class = "line">Pred. Disposals</th>
+                    <th class = "line">Bet Type</th>
+                  </tr>
+                  <tr>
+                    <td data-label ="Rd">12</td>
+                    <td data-label ="Match">Melbourne v Sydney</td>
+                    <td data-label ="Player">Clayton Oliver</td>
+                    <td data-label ="Line Over">31.5</td>
+                    <td data-label ="Odds Over">$1.90</td>
+                    <td data-label ="Line Under">-31.5</td>
+                    <td data-label ="Odds Under">$1.88</td>
+                    <td data-label ="Pred Disposals">30</td>
+                    <td data-label ="Bet Type">Under</td>
+                  </tr>
+                  <tr>
+                    <td data-label ="Rd">12</td>
+                    <td data-label ="Match">Melbourne v Sydney</td>
+                    <td data-label ="Player">Jack Viney</td>
+                    <td data-label ="Line Over">27.5</td>
+                    <td data-label ="Odds Over">$1.89</td>
+                    <td data-label ="Line Under">-27.5</td>
+                    <td data-label ="Odds Under">$1.88</td>
+                    <td data-label ="Pred Disposals">28</td>
+                    <td data-label ="Bet Type">Over</td>
+                  </tr>
+                  <tr>
+                    <td data-label ="Rd">12</td>
+                    <td data-label ="Match">Melbourne v Sydney</td>
+                    <td data-label ="Player">Callum Mills</td>
+                    <td data-label ="Line Over">24.5</td>
+                    <td data-label ="Odds Over">$1.92</td>
+                    <td data-label ="Line Under">-24.5</td>
+                    <td data-label ="Odds Under">$1.9</td>
+                    <td data-label ="Pred Disposals">21</td>
+                    <td data-label ="Bet Type">Under</td>
+                  </tr>
+                </table>
+
+              <p>The model was tested over the first six rounds of the 2023 season, producing strong results, with an average strike rate of <b>56%</b>.
+                 This means that more than half the time, the model is correctly predicting whether or not the number of player disposals will fall under
+                 or over the line offered. But what does this mean when we start to apply this to real world bets?
+                  Break even is generally considered to be around <b>52-53%</b> (depending on the bookie's market percentage), so with an average strike rate
+                  of <b>56%</b>, we are well ahead of the market and therefore our model is profitable.</p>          
+          </div>
+          <div class="section-7-pic-1">    
+            <img src="images/Portfolio/Originals/AFL1.jpg" alt="">
+           </div>
+           <h2>Betting Strategy</h2>
+           <p>How do we know our model is profitable? Profit in betting is generally referred to as Profit on Turnover or <b>PoT</b> as it is more
+             commonly known. We can use a very simple formula to convert our strike rate into PoT:</p>
+             <p>PoT = (Strike Rate x Price) - 1</p>
+             <p>We know that our strike rate during the testing phase was <b>56%</b>. Our average price was <b>$1.88</b>, so we calculate our PoT as follows:</p>
+             <p>PoT = (0.56 x 1.88) - 1</p>  
+             <p><b>PoT = 5.28%</b></p>             
+        </div> 
+        <div class="section-8">    
+          <div class="text"> 
+            <h2>Model Implementation</h2>     
+              <p>After testing was completed on rounds 1-6, the model was then put into real-time use to see how it would perform for the remainer of the season.
+                The average strike rate from round 6 to round 24 was <b>56%</b>. This is consistent with the strike rate produced during the testing phase of rounds 1-6
+                 (<b>56%</b>), and our model remains profitable.</p>  
+            </div>
+            <div class="section-8-pic-1">    
+              <img src="images/Portfolio/Originals/AFL2a.jpg" alt="">
+             </div> 
+             <div class="text"> 
+              <h2>Betting Results</h2>     
+                <p>We can verify that our model is profitable by looking at a summary of the betting performance.
+                  We know our strike rate was a solid <b>56%</b>, and the average price remained at <b>$1.88</b> through the rest of the season. 
+                  We can verify our PoT again using the formula shown above:</p>
+                  <p><b>PoT = (0.56 x 1.88) - 1</b></p>  
+                  <p><b>PoT = 5.28%</b></p>  
+                  <table class = "table_bets">
+                    <tr>
+                      <th class = "Bets">Bets</th>
+                      <th class = "Wins">Wins</th>
+                      <th class = "S/R">Strike Rate</th>
+                      <th class = "Profit">Profit</th>
+                      <th class = "PoT">PoT</th>
+                    </tr>
+                    <tr>
+                      <td data-label ="Bets">1410</td>
+                      <td data-label ="Wins">789</td>
+                      <td data-label ="S/R">56%</td>
+                      <td data-label ="Profit (Units)">78.9</td>
+                      <td data-label ="PoT">5.6%</td>
+                    </tr>       
+                  </table>
+                  <p>At <b>$100 per unit</b>, the model produced a profit of over <b>78 units</b> or <b>$7,800 profit</b> for the entire season! Note that the PoT
+                  shown above (<b>5.6%</b>) differs slightly from the result of our formula (<b>5.28%</b>) as the average price was closer to <b>$1.89</b> for the season 
+                  when accounting for rounding.</p>  
+              </div>          
+          </div> 
+          <div class="section-9">    
+            <div class="text"> 
+              <h2>Model and Betting Aids</h2>     
+                <p>In order to verify our model predictions and to assist with the overall betting strategy, I produced an interactive chart in
+                  <a href="https://www.rstudio.com/products/shiny/"><span style="color: #323232"><b>Shiny</b></span></a> that is prepared prior
+                  to each game. It provides an overall snapshot of some of the more key components, including a heat map of previous disposals.
+                  The chart is designed to aid in making the right betting decisions.</p>  
+              </div>
+              <div class="section-9-pic-1">    
+                <img src="images/Portfolio/Originals/AFL3.jpg" alt="">
+               </div>           
+               <p class = "final_paragraph">You can see the full analysis and model in my GitHub repository <a href="https://github.com/mattm14/AFL-Player-Disposal-Prediction"><span style="color: #323232"><b>here</b></span></a>.</p></p> 
+            </div> 
+
+
+ <!-- Footer -->
+ <div class = "footer" id="FOOTER">
+  <hr>
+  <br>
+  <p>Matt May</p>
+  <p><a href = "mailto: mmay14@hotmail.com">mmay14@hotmail.com</a></p>
+  </br>  
+    <p>Location:</p>
+  <p>Sydney, Australia</p>
+    
+  </p>
+  <div class = "icons">
+    <div class="item 1">
+    <a href = "mailto: mmay14@hotmail.com"><i class="fa fa-envelope" style="font-size:36px;color:#1a1b1e"></i></a>
+    </div>
+    <div class="item 2">
+      <a href = "https://github.com/mattm14"><i class="fa fa-github" style="font-size:36px;color:#1a1b1e"></i></a>
+    </div>    
+    <div class="item 3">
+      <a href = "https://www.linkedin.com/in/mattm14/"><i class="fa fa-linkedin-square" style="font-size:36px;color:rgb(0, 119, 181)"></i></a>    
+    </div>
+  </div>
+  <div class = "copyright">&copy; 2023 Matt May</div>  
+</div>
+<!-- END OF FOOTER -->
+ 
+
+<!-- Back to Top Button Script -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"></button> 
+<script>
+  mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
+</script>
+
+<!-- Mobile Menu Click -->
+<script>
+    function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');
+}
+</script>
+
+</body>
+</html>
