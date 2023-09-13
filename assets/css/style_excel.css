@@ -328,8 +328,18 @@ hr {
 
   .section-quote ul{
     margin-left: 25px;  
+    margin-right: 0px;
+    
 }
 
+.section-quote img{
+  max-width: 50%;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+  order: 2;
+}
 
 }
 
@@ -425,8 +435,13 @@ hr {
       margin-right: 25px;
     }
 
-    .section-proposal ul{        
-      margin-left: 50px;
+    .section-proposal ul{ 
+      margin-left: 50px;       
+      list-style-type: disc;
+      list-style-position: inside;
+      text-indent: -1em;
+      padding-left: 1em;
+      
     }
 }
 
@@ -562,6 +577,10 @@ hr {
 
   .section-calendar ul{
     margin-left: 50px;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1em;
 }
 }
 
@@ -638,9 +657,10 @@ hr {
 
 @media (max-width: 600px) {
   .section-inventory h3{
-    margin-left: 25px;
-    padding-left: 0px;
-    margin-bottom: 10px;        
+    padding: 0px;
+    margin-left: 25px;   
+    padding-top: 10px;   
+    padding-bottom: 10px;    
     
 }
   .section-inventory p{
@@ -754,10 +774,10 @@ hr {
 
 @media (max-width: 600px) {
   .section-database h3{
-    margin-left: 25px;
-    padding-left: 0px;
-    margin-bottom: 10px;        
-    
+    padding: 0px;
+    margin-left: 25px;   
+    padding-top: 10px;   
+    padding-bottom: 10px;    
 }
   .section-database p{
       margin-left: 25px;
