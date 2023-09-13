@@ -999,7 +999,12 @@ text-align: center;
     }
   }
   
-  
+  .copyright {
+    @media (max-width: 600px) { 
+      font-size: 0.6em !important;  
+    }
+  }
+
   /* Back to Top Button */
   #myBtn {
     display: none; /* Hidden by default */
@@ -1092,6 +1097,6 @@ text-align: center;
       }
   
      .nav-logo img {
-      width: 20vw;
+      width: 35vw;
      } 
     }
