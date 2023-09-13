@@ -589,6 +589,7 @@ blockquote {
   .about-me-container h2 {  
     margin-left: 10px;
     font-size: 30px;
+    font-weight: bold;
   }
     
   .about-me-container img {
