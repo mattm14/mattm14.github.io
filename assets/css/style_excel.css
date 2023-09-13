@@ -204,6 +204,18 @@ nav {
     }
 }
 
+@media (max-width: 600px) {
+  .section-intro h3 {
+    margin-left: 25px;
+    margin-right: 50px; 
+  }
+
+  .section-intro p {
+    margin-left: 25px;
+    margin-right: 25px; 
+  }
+}
+
 
 /* Quote Section */
 .section-quote{
@@ -293,6 +305,7 @@ hr {
 
     .section-quote p{
         margin-bottom: 10px;
+        margin-right: 50px; 
         order: 1;
     }
 
@@ -300,6 +313,24 @@ hr {
         margin-left: 50px;  
         margin-right: 50px;
     }
+}
+
+@media (max-width: 600px) {
+  .section-quote h3 {
+    padding-left: 0px;
+    margin-left: 25px;
+  }
+
+  .section-quote p {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .section-quote ul{
+    margin-left: 25px;  
+}
+
+
 }
 
 /* Proposal Section */
@@ -373,6 +404,7 @@ hr {
 
     .section-proposal p{        
         margin-bottom: 10px;
+        margin-right: 25px; 
     }
 
     .section-proposal ul{        
@@ -380,6 +412,23 @@ hr {
     }
 }
 
+@media (max-width: 600px) {
+   .section-proposal h3{
+      padding: 0px;        
+      margin-left: 25px;
+      padding-bottom: 10px;   
+    }  
+  
+    .section-proposal p{
+      padding: 0px;        
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+
+    .section-proposal ul{        
+      margin-left: 50px;
+    }
+}
 
 
 /* Invoice and Calendar */
@@ -448,6 +497,19 @@ hr {
     }
 }
 
+@media (max-width: 600px) {
+  .section-invoice h3{
+      padding: 0px;
+      margin-left: 25px;   
+      padding-top: 10px;   
+      padding-bottom: 10px;      
+  }
+
+  .section-invoice p{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
 
 /* Calendar Appointment Section */
 .section-calendar{
@@ -485,6 +547,23 @@ hr {
     margin-right: 50px; 
 }
 
+@media (max-width: 600px) {
+  .section-calendar h3{
+      padding: 0px;
+      margin-left: 25px;   
+      padding-top: 10px;   
+      padding-bottom: 10px;      
+  }
+
+  .section-calendar p{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .section-calendar ul{
+    margin-left: 50px;
+}
+}
 
 /* Inventory Management */
 .section-inventory{
@@ -557,6 +636,21 @@ hr {
     }
 }
 
+@media (max-width: 600px) {
+  .section-inventory h3{
+    margin-left: 25px;
+    padding-left: 0px;
+    margin-bottom: 10px;        
+    
+}
+  .section-inventory p{
+    margin-left: 10px;
+    margin-right: 25px;
+      margin-bottom: 10px;        
+      
+  }
+}
+
 .section-inventory-calendar{
     display: flex; 
     align-items: center;
@@ -616,6 +710,20 @@ hr {
     }
 }
 
+@media (max-width: 600px) {
+  .section-inventory-calendar h3{
+    margin-left: 25px;
+    padding-left: 0px;
+    margin-bottom: 10px;        
+    
+}
+  .section-inventory-calendar p{
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 10px;        
+      
+  }
+}
 
 /* Database Management */
 .section-database{
@@ -644,6 +752,19 @@ hr {
     margin-bottom: 10px; /* between paragraphs */
 }
 
+@media (max-width: 600px) {
+  .section-database h3{
+    margin-left: 25px;
+    padding-left: 0px;
+    margin-bottom: 10px;        
+    
+}
+  .section-database p{
+      margin-left: 25px;
+      margin-bottom: 10px;        
+      
+  }
+}
 
 /*---FOOTER SECTION---*/
 .footer{
@@ -815,6 +936,6 @@ hr {
       }
   
      .nav-logo img {
-      width: 32vw;
+      width: 20vw;
      } 
     }
