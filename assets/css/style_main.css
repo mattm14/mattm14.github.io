@@ -597,7 +597,6 @@ blockquote {
     display: table;
     margin: 0 auto;    
     padding-left: 0;  
-    border: solid red;
   }
 }
 
