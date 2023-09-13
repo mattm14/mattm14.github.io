@@ -286,6 +286,10 @@ hr {
     @media (max-width: 1200px) {
     height: 3px;
   }
+  
+  @media (max-width: 600px) {
+    height: 1.5px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -337,7 +341,7 @@ hr {
 }
 
 .section-quote img{
-  max-width: 50%;
+  max-width: 60%;
   height: auto;
   margin-left: 0;
   margin-right: 0;
@@ -427,7 +431,13 @@ hr {
 }
 
 @media (max-width: 600px) {
-   .section-proposal h3{
+  .section-proposal{
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
+
+
+  .section-proposal h3{
       padding: 0px;        
       margin-left: 25px;
       padding-bottom: 10px;   
@@ -449,10 +459,10 @@ hr {
     }
 
     .section-proposal img{
-      max-width: 35%;
+      max-width: 50%;
       height: auto;
 }
-
+}
 
 /* Invoice and Calendar */
 .section-invoice{
@@ -521,6 +531,11 @@ hr {
 }
 
 @media (max-width: 600px) {
+  .section-invoice{
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
+
   .section-invoice h3{
       padding: 0px;
       margin-left: 25px;   
@@ -535,7 +550,7 @@ hr {
 }
 
 .section-invoice img{
-  max-width: 35%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -576,6 +591,10 @@ hr {
 }
 
 @media (max-width: 600px) {
+  .section-calendar{
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
   .section-calendar h3{
       padding: 0px;
       margin-left: 25px;   
@@ -685,7 +704,7 @@ hr {
 }
 
 .section-inventory img{
-  max-width: 45%;
+  max-width: 60%;
   height: auto;
 }
 
@@ -749,6 +768,10 @@ hr {
 }
 
 @media (max-width: 600px) {
+  .section-inventory-calendar{
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
   .section-inventory-calendar h3{
     margin-left: 25px;
     padding-left: 0px;
@@ -761,6 +784,10 @@ hr {
       margin-bottom: 10px;        
       
   }
+  
+  .section-inventory-calendar img{
+    max-width: 60%;
+}
 }
 
 /* Database Management */
