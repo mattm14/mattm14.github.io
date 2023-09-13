@@ -328,7 +328,11 @@ hr {
 
   .section-quote ul{
     margin-left: 25px;  
-    margin-right: 0px;
+    margin-right: 0px;     
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1em;
     
 }
 
@@ -443,6 +447,10 @@ hr {
       padding-left: 1em;
       
     }
+
+    .section-proposal img{
+      max-width: 35%;
+      height: auto;
 }
 
 
@@ -524,6 +532,11 @@ hr {
     margin-left: 25px;
     margin-right: 25px;
   }
+}
+
+.section-invoice img{
+  max-width: 35%;
+  height: auto;
 }
 
 /* Calendar Appointment Section */
@@ -671,6 +684,11 @@ hr {
   }
 }
 
+.section-inventory img{
+  max-width: 45%;
+  height: auto;
+}
+
 .section-inventory-calendar{
     display: flex; 
     align-items: center;
@@ -680,7 +698,7 @@ hr {
 
 .section-inventory-calendar img{
     max-width: 35%;
-    height: 50%;
+    height: auto;
     margin-top: 15px;
     margin-left: 30px;
     margin-right: 50px;
