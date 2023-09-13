@@ -207,18 +207,20 @@ nav {
 @media (max-width: 600px) {
   .section-intro{   
     padding-left: 0px; 
-    padding-bottom: 0px;     
+    padding-bottom: 0px; 
+   
   }
 
   .section-intro h3 {
     margin-left: 0px;
-    padding-left: 25px;
-    margin-right: 0px; 
+    padding-left: 40px;
+    margin-right: 25px; 
+
   }
 
   .section-intro p {
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px; 
   }
 }
@@ -333,18 +335,18 @@ hr {
 }
   .section-quote h3 {
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px; 
   }
 
   .section-quote p {
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px; 
   }
 
   .section-quote ul{
-    margin-left: 0px;     
+    margin-left: 25px;     
     margin-right: 0px;
     list-style-type: disc;
     list-style-position: inside;
@@ -452,18 +454,18 @@ hr {
     margin-bottom: -30px;    
 }
   .section-proposal h3 {
-    padding-left: 15px;
+    padding-left: 40px;
     margin-left: 0px;
   }
 
   .section-proposal p {
     margin-left: 0px;
     margin-right: 25px;
-    padding-left: 15px;    
+    padding-left: 40px;    
   }
 
   .section-proposal ul{
-    margin-left: 0px;     
+    margin-left: 25px;     
     margin-right: 25px;
     list-style-type: disc;
     list-style-position: inside;
@@ -557,13 +559,13 @@ hr {
 
   .section-invoice h3{
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px;   
   }
 
   .section-invoice p{
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px; 
   }
 }
@@ -616,18 +618,18 @@ hr {
 }
   .section-calendar h3{
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px;    
   }
 
   .section-calendar p{
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px; 
   }
 
   .section-calendar ul{
-    margin-left: 0px;     
+    margin-left: 25px;     
     margin-right: 25px;
     list-style-type: disc;
     list-style-position: inside;
@@ -711,13 +713,13 @@ hr {
 @media (max-width: 600px) {
   .section-inventory h3{
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px;     
     
 }
   .section-inventory p{
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px;       
       
   }
@@ -794,12 +796,12 @@ hr {
 }
   .section-inventory-calendar h3{
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px; 
 }
   .section-inventory-calendar p{
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px;     
       
   }
@@ -839,12 +841,12 @@ hr {
 @media (max-width: 600px) {
   .section-database h3{
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px;    
 }
   .section-database p{
     margin-left: 0px;
-    padding-left: 25px;
+    padding-left: 40px;
     margin-right: 25px;         
       
   }
