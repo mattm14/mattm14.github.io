@@ -172,7 +172,7 @@ nav {
   
 /* Section 1*/
 .section-1 { 
-    padding-top: 85px;    
+    padding-top: 60px;    
     padding-bottom: 20px;     
     background-color: var(--main-bg-color);         
 }
@@ -204,6 +204,29 @@ nav {
   margin-right: 50px; 
 }
 
+@media (max-width: 600px) {
+  .section-1 h2 {
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px; 
+}
+  .section-1 p{
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px;           
+  } 
+  
+  .section-1 ul{
+    margin-left: 25px;     
+    margin-right: 25px;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1em;
+    padding-left: 50px;  
+}
+}
+
 /* Section 2*/
 .section-2 { 
     padding-bottom: 20px;     
@@ -226,6 +249,19 @@ nav {
     padding-left: 75px;     
     margin-right: 50px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .section-2 h2 {
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px; 
+}
+  .section-2 p{
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px;           
+  } 
 }
 
 /* Section 3*/
@@ -252,6 +288,18 @@ nav {
     margin-bottom: 10px;
 }
 
+@media (max-width: 600px) {
+  .section-3 h2 {
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px; 
+}
+  .section-3 p{
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px;           
+  } 
+}
 
 /* Section 4*/
 .section-4 { 
@@ -277,6 +325,18 @@ nav {
     margin-bottom: 10px;
 }
 
+@media (max-width: 600px) {
+  .section-4 h2 {
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px; 
+}
+  .section-4 p{
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px;           
+  } 
+}
 
 /* Section 5*/
 .section-5 { 
@@ -332,6 +392,8 @@ nav {
     border-color: gray;   
 }
 
+
+
 /* TABLE FORMATTING */
 .table_feature {
   color: var(--main-bg-color);
@@ -364,6 +426,26 @@ text-align: center;
 text-align: center;
 }
 
+
+@media (max-width: 600px) {
+  .section-5 h2 {
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px; 
+}
+  .section-5 p{
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px;           
+  } 
+
+  .section-5-pic-2 img{
+    max-width: 45%;
+    border: solid;
+    border-width:2px; 
+    border-color: gray;   
+}
+}
 
 /* Section 6*/
 .section-6 { 
@@ -404,6 +486,19 @@ text-align: center;
     border-color: gray;   
 }
 
+@media (max-width: 600px) {
+  .section-6 h2 {
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px; 
+}
+  .section-6 p{
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px;           
+  } 
+}
+
 /* Section 7*/
 .section-7 { 
     padding-bottom: 20px;     
@@ -441,6 +536,26 @@ text-align: center;
     border: solid;
     border-width:2px; 
     border-color: gray;   
+}
+
+@media (max-width: 600px) {
+  .section-7 h2 {
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px; 
+}
+  .section-7 p{
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px;           
+  } 
+
+  .section-7-pic-1 img{
+    max-width: 55%;
+    border: solid;
+    border-width:2px; 
+    border-color: gray;   
+}
 }
 
 .section-8 { 
@@ -514,6 +629,26 @@ text-align: center;
 text-align: center;
 }
 
+@media (max-width: 600px) {
+  .section-8 h2 {
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px; 
+}
+  .section-8 p{
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px;           
+  } 
+
+  .section-8-pic-1 img{
+    max-width: 55%;
+    border: solid;
+    border-width:2px; 
+    border-color: gray;   
+}
+
+}
 
 .section-9 {        
     background-color: var(--main-bg-color);         
@@ -767,6 +902,25 @@ text-align: center;
     justify-content: center;
 }
 
+@media (max-width: 600px) {
+  .section-9 h2 {
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px; 
+}
+  .section-9 p{
+    margin-left: 0px;
+    padding-left: 35px;
+    margin-right: 25px;           
+  } 
+
+  .section-9-pic-1 img{
+    max-width: 55%;
+    border: solid;
+    border-width:2px; 
+    border-color: gray;   
+}
+}
 
 /*---FOOTER SECTION---*/
 .footer{
@@ -938,6 +1092,6 @@ text-align: center;
       }
   
      .nav-logo img {
-      width: 32vw;
+      width: 20vw;
      } 
     }
