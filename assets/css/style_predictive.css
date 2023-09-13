@@ -440,7 +440,7 @@ text-align: center;
   } 
 
   .section-5-pic-2 img{
-    max-width: 45%;
+    max-width: 55%;
     border: solid;
     border-width:2px; 
     border-color: gray;   
@@ -497,6 +497,13 @@ text-align: center;
     padding-left: 35px;
     margin-right: 25px;           
   } 
+
+  .section-6-pic-1 img{
+    max-width: 55%;
+    border: solid;
+    border-width:2px; 
+    border-color: gray;   
+}
 }
 
 /* Section 7*/
@@ -551,7 +558,7 @@ text-align: center;
   } 
 
   .section-7-pic-1 img{
-    max-width: 55%;
+    max-width: 60%;
     border: solid;
     border-width:2px; 
     border-color: gray;   
@@ -642,7 +649,7 @@ text-align: center;
   } 
 
   .section-8-pic-1 img{
-    max-width: 55%;
+    max-width: 60%;
     border: solid;
     border-width:2px; 
     border-color: gray;   
@@ -915,7 +922,7 @@ text-align: center;
   } 
 
   .section-9-pic-1 img{
-    max-width: 55%;
+    max-width: 60%;
     border: solid;
     border-width:2px; 
     border-color: gray;   
