@@ -352,7 +352,7 @@ hr {
 
 
 .section-quote img{
-  max-width: 60%;
+  max-width: 65%;
   height: auto;
   margin-left: 0;
   margin-right: 0;
@@ -471,7 +471,7 @@ hr {
 
 
 .section-proposal img{
-  max-width: 50%;
+  max-width: 60%;
   height: auto;
   margin-left: 0;
   margin-right: 0;
@@ -568,7 +568,7 @@ hr {
 }
 
 .section-invoice img{
-  max-width: 50%;
+  max-width: 60%;
   height: auto;
 }
 
@@ -726,7 +726,7 @@ hr {
 }
 
 .section-inventory img{
-  max-width: 60%;
+  max-width: 65%;
   height: auto;
 }
 
@@ -808,7 +808,7 @@ hr {
   }
   
   .section-inventory-calendar img{
-    max-width: 60%;
+    max-width: 65%;
 }
 }
 
