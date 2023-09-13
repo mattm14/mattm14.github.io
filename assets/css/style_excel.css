@@ -1,4 +1,4 @@
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 /* Global Variables */
     :root {
@@ -931,7 +931,12 @@ hr {
     }
   }
   
-  
+  .copyright {
+    @media (max-width: 600px) { 
+      font-size: 0.6em !important;  
+    }
+  }
+
   /* Back to Top Button */
   #myBtn {
     display: none; /* Hidden by default */
@@ -1024,6 +1029,6 @@ hr {
       }
   
      .nav-logo img {
-      width: 36vw;
+      width: 35vw;
      } 
     }
