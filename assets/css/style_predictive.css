@@ -655,8 +655,8 @@ text-align: center;
 }
 
   .table_bets {
-    border-spacing: 50px 0; 
-    border: solid red;
+    border-spacing: 25px 0; 
+    border: solid blue;
 }
 }
 
