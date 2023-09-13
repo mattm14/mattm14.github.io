@@ -210,14 +210,14 @@ nav {
   }
 
   .section-intro h3 {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-left: 25px;
     padding-bottom: 5px;   
   }
 
   .section-intro p {
-    margin-left: 0px;
+    margin-left: 25px;
     margin-right: 25px;
     padding-left: 25px;     
   }
@@ -309,12 +309,13 @@ hr {
 }
   .section-BDM h3 {
     padding-left: 25px;
-    margin-left: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
     
   }
 
   .section-BDM p {
-    margin-left: 0px;
+    margin-left: 25px;
     margin-right: 25px;
     padding-left: 25px;
  
@@ -395,12 +396,13 @@ hr {
 }
   .section-Finance h3 {
     padding-left: 25px;
-    margin-left: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
     
   }
 
   .section-Finance p {
-    margin-left: 0px;
+    margin-left: 25px;
     margin-right: 25px;
     padding-left: 25px;
  
@@ -484,12 +486,13 @@ hr {
 }
   .section-events h3 {
     padding-left: 25px;
-    margin-left: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
     
   }
 
   .section-events p {
-    margin-left: 0px;
+    margin-left: 25px;
     margin-right: 25px;
     padding-left: 25px;
  
