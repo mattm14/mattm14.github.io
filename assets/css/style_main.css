@@ -1095,6 +1095,23 @@ circle {
       display: none;
   }
 
+  
+  
+    .left_skills h2 {
+      margin-left: -25px;
+    }
+
+    .left_skills h3 {
+      margin-left: -25px;
+    }
+
+    .left_skills p {
+      margin-left: -25px;
+      margin-right: 10px;
+    }
+
+
+
     .circle_box {
       border: solid darkorange;
       align-self: center;
