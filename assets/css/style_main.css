@@ -580,24 +580,24 @@ blockquote {
 
 @media (max-width: 800px) {
   .about-me-container p {  
-    margin-left: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
   }
   .about-me-container h3 {  
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   .about-me-container h2 {  
-    margin-left: 10px;
-    font-size: 30px;
-    font-weight: bold;
+    margin-left: 0px;
+    font-size: 14px;
   }
-    
+
   .about-me-container img {
-    max-width: 40%;
+    max-width: 30%;
     height: auto;
     display: table;
     margin: 0 auto;    
-    padding-left: 0;  
+    padding-left: 0;   
   }
 }
 
@@ -1309,6 +1309,12 @@ font-weight: 600;
   }
 }
 
+.copyright {
+  @media (max-width: 600px) { 
+    font-size: 0.6em !important;  
+  }
+}
+
 
 /* Back to Top Button */
 #myBtn {
@@ -1402,6 +1408,6 @@ font-weight: 600;
     }
 
    .nav-logo img {
-    width: 32vw;
+    width: 35vw;
    } 
   }
