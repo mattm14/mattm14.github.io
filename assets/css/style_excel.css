@@ -211,12 +211,14 @@ nav {
   }
 
   .section-intro h3 {
-    margin-left: 25px;
+    margin-left: 0px;
+    padding-left: 25px;
     margin-right: 0px; 
   }
 
   .section-intro p {
-    margin-left: 25px;
+    margin-left: 0px;
+    padding-left: 25px;
     margin-right: 25px; 
   }
 }
@@ -330,14 +332,15 @@ hr {
     padding-bottom: 0px;     
 }
   .section-quote h3 {
-    padding-left: 15px;
     margin-left: 0px;
+    padding-left: 25px;
+    margin-right: 25px; 
   }
 
   .section-quote p {
     margin-left: 0px;
-    margin-right: 25px;
-    padding-left: 15px;
+    padding-left: 25px;
+    margin-right: 25px; 
   }
 
   .section-quote ul{
@@ -554,16 +557,14 @@ hr {
 
   .section-invoice h3{
     margin-left: 0px;
-    padding-left: 15px;
-    margin-right: 0px;  
-      padding-top: 10px;   
-      padding-bottom: 10px;    
+    padding-left: 25px;
+    margin-right: 25px;   
   }
 
   .section-invoice p{
     margin-left: 0px;
-    padding-left: 15px;
-    margin-right: 25px;
+    padding-left: 25px;
+    margin-right: 25px; 
   }
 }
 
@@ -615,16 +616,14 @@ hr {
 }
   .section-calendar h3{
     margin-left: 0px;
-    padding-left: 15px;
-    margin-right: 0px;   
-      padding-top: 10px;   
-      padding-bottom: 10px;      
+    padding-left: 25px;
+    margin-right: 25px;    
   }
 
   .section-calendar p{
     margin-left: 0px;
-    padding-left: 15px;
-    margin-right: 25px;
+    padding-left: 25px;
+    margin-right: 25px; 
   }
 
   .section-calendar ul{
@@ -711,16 +710,15 @@ hr {
 
 @media (max-width: 600px) {
   .section-inventory h3{
-    padding: 0px;
-    margin-left: 25px;   
-    padding-top: 10px;   
-    padding-bottom: 10px;    
+    margin-left: 0px;
+    padding-left: 25px;
+    margin-right: 25px;     
     
 }
   .section-inventory p{
-    margin-left: 10px;
-    margin-right: 25px;
-      margin-bottom: 10px;        
+    margin-left: 0px;
+    padding-left: 25px;
+    margin-right: 25px;       
       
   }
 }
@@ -795,15 +793,14 @@ hr {
     margin-bottom: -10px;
 }
   .section-inventory-calendar h3{
-    margin-left: 25px;
-    padding-left: 0px;
-    margin-bottom: 10px;        
-    
+    margin-left: 0px;
+    padding-left: 25px;
+    margin-right: 25px; 
 }
   .section-inventory-calendar p{
-      margin-left: 25px;
-      margin-right: 25px;
-      margin-bottom: 10px;        
+    margin-left: 0px;
+    padding-left: 25px;
+    margin-right: 25px;     
       
   }
   
@@ -841,15 +838,14 @@ hr {
 
 @media (max-width: 600px) {
   .section-database h3{
-    padding: 0px;
-    margin-left: 25px;   
-    padding-top: 10px;   
-    padding-bottom: 10px;    
+    margin-left: 0px;
+    padding-left: 25px;
+    margin-right: 25px;    
 }
   .section-database p{
-      margin-left: 25px;
-      margin-right: 25px;
-      margin-bottom: 0px;        
+    margin-left: 0px;
+    padding-left: 25px;
+    margin-right: 25px;         
       
   }
 }
