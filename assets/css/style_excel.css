@@ -332,13 +332,14 @@ hr {
 
   .section-quote ul{
     margin-left: 25px;  
-    margin-right: 0px;     
+    margin-right: 25px;     
     list-style-type: disc;
     list-style-position: inside;
     text-indent: -1em;
     padding-left: 1em;
     
 }
+
 
 .section-quote img{
   max-width: 60%;
@@ -756,7 +757,7 @@ hr {
         max-width: 50%;
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         order: 2;
     }
 
