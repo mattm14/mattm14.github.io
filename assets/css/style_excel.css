@@ -205,9 +205,15 @@ nav {
 }
 
 @media (max-width: 600px) {
+  .section-intro{
+    margin-top: 25px; 
+    padding-left: 0px; 
+    padding-bottom: 0px;     
+  }
+
   .section-intro h3 {
     margin-left: 25px;
-    margin-right: 50px; 
+    margin-right: 0px; 
   }
 
   .section-intro p {
@@ -319,24 +325,30 @@ hr {
 }
 
 @media (max-width: 600px) {
+  .section-quote{
+    margin-top: 25px; 
+    padding-left: 0px; 
+    padding-bottom: 0px;     
+}
   .section-quote h3 {
-    padding-left: 0px;
-    margin-left: 25px;
+    padding-left: 15px;
+    margin-left: 0px;
   }
 
   .section-quote p {
-    margin-left: 25px;
+    margin-left: 0px;
     margin-right: 25px;
+    padding-left: 15px;
   }
 
   .section-quote ul{
-    margin-left: 15px;     
-    margin-right: 0px;  
+    margin-left: 0px;     
+    margin-right: 0px;
     list-style-type: disc;
     list-style-position: inside;
     text-indent: -1em;
     padding-left: 1em;
-    
+    padding-left: 50px;  
 }
 
 
@@ -431,40 +443,44 @@ hr {
 }
 
 @media (max-width: 600px) {
-  .section-proposal{
-    padding-bottom: 0px;
-    margin-bottom: -10px;
+  .section-proposal {
+    margin-top: 25px;  
+    padding-left: 0px; 
+    padding-bottom: 0px; 
+    margin-bottom: -30px;    
+}
+  .section-proposal h3 {
+    padding-left: 15px;
+    margin-left: 0px;
+  }
+
+  .section-proposal p {
+    margin-left: 0px;
+    margin-right: 25px;
+    padding-left: 15px;    
+  }
+
+  .section-proposal ul{
+    margin-left: 0px;     
+    margin-right: 25px;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1em;
+    padding-left: 50px;  
 }
 
 
-  .section-proposal h3{
-      padding: 0px;        
-      margin-left: 25px;
-      padding-bottom: 10px;   
-    }  
-  
-    .section-proposal p{
-      padding: 0px;        
-      margin-left: 25px;
-      margin-right: 25px;
-    }
-
-    .section-proposal ul{ 
-      margin-left: 45px;     
-      margin-right: 50px;      
-      list-style-type: disc;
-      list-style-position: inside;
-      text-indent: -1em;
-      padding-left: 1em;
-      
-    }
-
-    .section-proposal img{
-      max-width: 50%;
-      height: auto;
-}
+.section-proposal img{
+  max-width: 50%;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+  order: 2;
 }
 
+}
 /* Invoice and Calendar */
 .section-invoice{
     display: flex;  
@@ -538,14 +554,16 @@ hr {
 }
 
   .section-invoice h3{
-      padding: 0px;
-      margin-left: 25px;   
+    margin-left: 0px;
+    padding-left: 15px;
+    margin-right: 0px;  
       padding-top: 10px;   
-      padding-bottom: 10px;      
+      padding-bottom: 10px;    
   }
 
   .section-invoice p{
-    margin-left: 25px;
+    margin-left: 0px;
+    padding-left: 15px;
     margin-right: 25px;
   }
 }
@@ -597,24 +615,27 @@ hr {
     margin-bottom: -10px;
 }
   .section-calendar h3{
-      padding: 0px;
-      margin-left: 25px;   
+    margin-left: 0px;
+    padding-left: 15px;
+    margin-right: 0px;   
       padding-top: 10px;   
       padding-bottom: 10px;      
   }
 
   .section-calendar p{
-    margin-left: 25px;
+    margin-left: 0px;
+    padding-left: 15px;
     margin-right: 25px;
   }
 
   .section-calendar ul{
-    margin-left: 40px;     
-    margin-right: 50px; 
+    margin-left: 0px;     
+    margin-right: 25px;
     list-style-type: disc;
     list-style-position: inside;
     text-indent: -1em;
     padding-left: 1em;
+    padding-left: 50px;  
 }
 }
 
@@ -828,6 +849,7 @@ hr {
 }
   .section-database p{
       margin-left: 25px;
+      margin-right: 25px;
       margin-bottom: 0px;        
       
   }
@@ -1003,6 +1025,6 @@ hr {
       }
   
      .nav-logo img {
-      width: 32vw;
+      width: 40vw;
      } 
     }
