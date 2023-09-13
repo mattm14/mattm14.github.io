@@ -347,7 +347,7 @@ hr {
 
   .section-quote ul{
     margin-left: 25px;     
-    margin-right: 0px;
+    margin-right: 25px;
     list-style-type: disc;
     list-style-position: inside;
     text-indent: -1em;
