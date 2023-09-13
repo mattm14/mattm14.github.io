@@ -455,6 +455,12 @@ margin: 0px;
   }
 }
 
+.copyright {
+  @media (max-width: 600px) { 
+    font-size: 0.6em !important;  
+  }
+}
+
 
 /* Back to Top Button */
 #myBtn {
@@ -548,6 +554,6 @@ margin: 0px;
     }
 
    .nav-logo img {
-    width: 20vw;
+    width: 35vw;
    } 
   }
