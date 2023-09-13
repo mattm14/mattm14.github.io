@@ -203,6 +203,25 @@ nav {
     }
 }
 
+@media (max-width: 600px) {
+  .section-intro{   
+    padding-left: 0px; 
+    padding-bottom: 0px;     
+  }
+
+  .section-intro h3 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 25px;
+    padding-bottom: 5px;   
+  }
+
+  .section-intro p {
+    margin-left: 0px;
+    margin-right: 25px;
+    padding-left: 25px;     
+  }
+}
 
 /* Bus Dev Dashboard Section */
 .section-BDM{
@@ -247,12 +266,16 @@ hr {
     height: 5px; 
     width: 80%;
     margin: auto;
-    margin-top: 35px;
+    margin-top: 25px;
     margin-bottom: 5px;
     background-color: var(--secondary-bg-color);    
 
     @media (max-width: 1200px) {
     height: 3px;
+  }
+
+  @media (max-width: 600px) {
+    height: 1.5px;
   }
 }
 
@@ -275,6 +298,33 @@ hr {
         margin-bottom: 10px;
         order: 1;
     }
+}
+
+@media (max-width: 600px) {
+  .section-BDM {
+    margin-top: 15px; 
+    padding-left: 0px; 
+    padding-bottom: 0px;  
+    margin-bottom: -20px;  
+}
+  .section-BDM h3 {
+    padding-left: 25px;
+    margin-left: 0px;
+    
+  }
+
+  .section-BDM p {
+    margin-left: 0px;
+    margin-right: 25px;
+    padding-left: 25px;
+ 
+  }
+
+  .section-BDM img{
+    max-width: 60%;
+    height: auto;
+}
+
 }
 
 /* Finance Dashboard */
@@ -317,6 +367,7 @@ hr {
     padding-left: 25px;
 }
 
+
 @media (max-width: 1200px) {
     .section-Finance {
       flex-direction: column;
@@ -336,6 +387,31 @@ hr {
     }
 }
 
+@media (max-width: 600px) {
+  .section-Finance {
+    margin-top: 15px; 
+    padding-left: 0px; 
+    padding-bottom: 0px;      
+}
+  .section-Finance h3 {
+    padding-left: 25px;
+    margin-left: 0px;
+    
+  }
+
+  .section-Finance p {
+    margin-left: 0px;
+    margin-right: 25px;
+    padding-left: 25px;
+ 
+  }
+
+  .section-Finance img{
+    max-width: 65%;
+    height: auto;   
+}
+}
+
 /* Events Dashboard Section */
 .section-events {
     display: flex;  
@@ -351,8 +427,7 @@ hr {
     font-size: var(--main-header-4-font-size);
     font-weight: 800;     
     color: var(--secondary-bg-color);
-    padding-left: 150px;
-    padding-top: 25px;  
+    padding-left: 150px; 
     padding-bottom: 10px;  
 }
 
@@ -399,6 +474,31 @@ hr {
         margin-bottom: 0px;
         order: 1;
     }
+}
+
+@media (max-width: 600px) {
+  .section-events {
+    margin-top: 15px; 
+    padding-left: 0px; 
+    padding-bottom: 0px;      
+}
+  .section-events h3 {
+    padding-left: 25px;
+    margin-left: 0px;
+    
+  }
+
+  .section-events p {
+    margin-left: 0px;
+    margin-right: 25px;
+    padding-left: 25px;
+ 
+  }
+
+  .section-events img{
+    max-width: 60%;
+    height: auto;
+  }
 }
 
 
@@ -479,7 +579,12 @@ hr {
     }
   }
   
-  
+  .copyright {
+    @media (max-width: 600px) { 
+      font-size: 0.6em !important;  
+    }
+  }
+
   /* Back to Top Button */
   #myBtn {
     display: none; /* Hidden by default */
@@ -572,6 +677,6 @@ hr {
       }
   
      .nav-logo img {
-      width: 32vw;
+      width: 35vw;
      } 
     }
