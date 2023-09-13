@@ -224,7 +224,11 @@ nav {
     text-indent: -1em;
     padding-left: 1em;
     padding-left: 50px;  
-}
+  }
+
+  #Performance {
+    padding-top: 10px;
+  }
 }
 
 /* Section 2*/
