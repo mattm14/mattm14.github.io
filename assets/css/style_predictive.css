@@ -660,7 +660,7 @@ text-align: center;
 
   .table_bets {
     border-spacing: 25px 0; 
-    border: solid blue;
+    border-color: gray;
 }
 }
 
