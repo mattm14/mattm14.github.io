@@ -196,12 +196,12 @@ nav {
 @media (max-width: 600px) {
   .section-intro h2 {
     margin-left: 0px;
-    padding-left: 30px;
+    padding-left: 35px;
     margin-right: 25px; 
 }
   .section-intro p{
     margin-left: 0px;
-    padding-left: 30px;
+    padding-left: 35px;
     margin-right: 25px;     
       
   } 
@@ -315,12 +315,12 @@ nav {
 @media (max-width: 600px) {
   .section-exploratory-3 p {
     margin-left: 0px;
-    padding-left: 30px;
+    padding-left: 35px;
     margin-right: 25px; 
 }
   .section-exploratory-4 p{
     margin-left: 0px;
-    padding-left: 30px;
+    padding-left: 35px;
     margin-right: 25px;           
   } 
 }
@@ -332,7 +332,7 @@ nav {
 @media (max-width: 600px) {
   .final_paragraph {
     margin-left: 0px;
-    padding-left: 30px;
+    padding-left: 35px;
     margin-right: 25px; 
 } 
 }
