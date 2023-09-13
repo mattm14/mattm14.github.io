@@ -615,11 +615,10 @@ text-align: center;
   margin-top: 20px;
   margin-bottom: 25px;
   table-layout: fixed;  
-  border-spacing: 50px 0;
+  border-spacing: 100px 0; 
 
     @media (max-width: 925px) {   
-      border-spacing: 50px 0;
-      border: solid red;
+      border-spacing: 50px 0; 
     }
 }
 
@@ -655,6 +654,10 @@ text-align: center;
     border-color: gray;   
 }
 
+  .table_bets {
+    border-spacing: 50px 0; 
+    border: solid red;
+}
 }
 
 .section-9 {        
