@@ -589,11 +589,11 @@ blockquote {
 
   .about-me-container h2 {  
     margin-left: 0px;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .about-me-container img {
-    max-width: 30%;
+    max-width: 35%;
     height: auto;
     display: table;
     margin: 0 auto;    
