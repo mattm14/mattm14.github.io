@@ -944,7 +944,7 @@ hr {
     }
 
     @media (max-width: 600px) { 
-      font-size: 0.6em !important;  
+      font-size: 0.3em !important;  
     }
   }
 
