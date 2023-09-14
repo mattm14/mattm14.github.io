@@ -67,7 +67,6 @@ nav {
         0 4px 6px -4px rgba(0, 0, 0, 0.1);
     user-select: none;
     display: flex;
-    flex-shrink: 0;
     position: fixed;
     background-color: var(--secondary-bg-color);
     width: 100%;
@@ -82,10 +81,10 @@ nav {
     .nav-links {
       font-weight: 600;
       display:flex;
-      border: solid blue;
+      border: solid pink;
  }
 
-   .nav-links > * + * { margin-left: 1rem;}
+   .nav-links > * + * { margin-left: 0.5rem;}
 
 .nav-links a {
       transition: color 0.25s;
