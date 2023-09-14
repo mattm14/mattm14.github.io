@@ -323,7 +323,7 @@ hr {
     }
 
     .section-quote ul{
-        margin-left: 50px;  
+        margin-left: 150px;  
         margin-right: 50px;
     }
 }
@@ -444,7 +444,7 @@ hr {
     }
 
     .section-proposal ul{        
-        margin-left: 100px;
+        margin-left: 150px;
     }
 }
 
@@ -945,10 +945,6 @@ hr {
   .copyright {
     @media (max-width: 1200px) { 
       font-size: 0.6em !important;  
-    }
-
-    @media (max-width: 600px) { 
-      font-size: 0.3em !important;  
     }
   }
 
