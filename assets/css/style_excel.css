@@ -69,7 +69,8 @@ nav {
     display: flex;
     position: fixed;
     background-color: var(--secondary-bg-color);
-    width: 100%;   
+    width: 100%;
+    align-items: center;
     justify-content: space-between;
     padding: 10px;
     padding-bottom: 5px;
@@ -79,10 +80,13 @@ nav {
   
     .nav-links {
       font-weight: 600;
-      display: inline-flex;
-      gap: 1.5em;
-      padding: 100px;
-      border: solid blue;      
+      display:flex;
+      gap: 1em;      
+
+      @media (max-width: 1024px) {
+      border: solid red;
+      gap: 5em; 
+      }  
   }
   
     .nav-links a {
@@ -99,7 +103,7 @@ nav {
     
     .nav-logo img {
       width: var(--navbar-logo-size);
-      border: none; 
+      border: none;      
     }
   
   /* Dropdown Content - NavBar */
