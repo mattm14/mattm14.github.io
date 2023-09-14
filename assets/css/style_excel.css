@@ -82,6 +82,7 @@ nav {
       font-weight: 600;
       display: flex;
       gap: 1.5em;
+      border: solid red;
     }
   
     .nav-links a {
