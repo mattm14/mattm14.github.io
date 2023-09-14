@@ -59,6 +59,7 @@
     body {
         margin: 0;
         background-color: var(--main-bg-color);
+        -webkit-overflow-scrolling: touch;
     }
 
 /* NavBar Section */
@@ -81,7 +82,7 @@ nav {
     .nav-links {
       font-weight: 600;
       display:flex;
-      border: solid pink;
+      border: solid purple;
  }
 
    .nav-links > * + * { margin-left: 1rem;}
