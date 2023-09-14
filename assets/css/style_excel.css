@@ -67,6 +67,7 @@ nav {
         0 4px 6px -4px rgba(0, 0, 0, 0.1);
     user-select: none;
     display: flex;
+    flex-shrink: 0;
     position: fixed;
     background-color: var(--secondary-bg-color);
     width: 100%;
@@ -81,9 +82,8 @@ nav {
     .nav-links {
       font-weight: 600;
       display:flex;
-      flex-shrink: 0;
       gap: 1em;
-      border: solid pink;
+      border: solid blue;
  }
   
     .nav-links a {
