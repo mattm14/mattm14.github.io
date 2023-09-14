@@ -552,6 +552,10 @@ hr {
         margin-bottom: 0px;
         order: 1;
     }
+
+    #invoice {
+      scroll-margin-top: 50px; 
+    }
 }
 
 @media (max-width: 600px) {
