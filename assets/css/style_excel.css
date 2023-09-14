@@ -71,7 +71,7 @@ nav {
     background-color: var(--secondary-bg-color);
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 10px;
     padding-bottom: 5px;
     font-family: var(--navbar-font), var(--navbar-callback-font);
@@ -82,7 +82,7 @@ nav {
       font-weight: 600;
       display: flex;
       gap: 5em;
-      border: solid blue;
+      border: solid orange;
     }
   
     .nav-links a {
