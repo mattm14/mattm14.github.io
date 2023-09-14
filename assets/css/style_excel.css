@@ -81,7 +81,7 @@ nav {
     .nav-links {
       font-weight: 600;
       display:flex;
-      border: solid blue;
+      border: solid pink;
  }
 
    .nav-links > * + * { margin-left: 1rem;}
@@ -529,7 +529,15 @@ hr {
     margin-bottom: 10px; /* between paragraphs */
 }
 
-    #invoice > * + * { scroll-margin-top: 70px;}
+  #invoice {
+    scroll-margin-top: 50ex;
+    outline: 0 none;
+
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        margin-top: 50ex;
+        padding-top: 50ex;
+    }
+}
    
 
 @media (max-width: 1200px) {
@@ -557,10 +565,6 @@ hr {
         margin-bottom: 0px;
         order: 1;
     }
-
-    #invoice {
-      scroll-margin-top: 0px; 
-     }
 }
 
 @media (max-width: 600px) {
