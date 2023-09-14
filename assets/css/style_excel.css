@@ -82,7 +82,7 @@ nav {
     .nav-links {
       font-weight: 600;
       display:flex;
-      border: solid red;
+      border: solid blue;
  }
   
     .nav-links a {
