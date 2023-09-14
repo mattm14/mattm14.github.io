@@ -83,10 +83,12 @@ nav {
       font-weight: 600;
       display:flex;
       gap: 1em;
-      border: solid blue;
+      border: solid purple;
  }
-  
-    .nav-links a {
+
+   .nav-links > * + * { margin-left: 8rem;}
+
+.nav-links a {
       transition: color 0.25s;
     }
   
