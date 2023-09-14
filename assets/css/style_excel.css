@@ -82,7 +82,7 @@ nav {
       font-weight: 600;
       display: flex;
       gap: 1em;
-      border: solid blue;
+      border: solid pink;
 
       
       @media (max-width: 1200px) {
