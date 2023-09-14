@@ -573,6 +573,10 @@ hr {
     width: 60%;
     height: auto;
   }
+
+  #invoice {
+    scroll-margin-top: 65px; 
+  }
 }
 
 /* Calendar Appointment Section */
