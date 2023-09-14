@@ -227,7 +227,7 @@ nav {
   }
 
   #Performance {
-    scroll-margin-top: 70px;
+    scroll-margin-top: 70px; 
   }
 }
 
@@ -444,11 +444,16 @@ text-align: center;
   } 
 
   .section-5-pic-2 img{
-    max-width: 55%;
+    max-width: 75%;
     border: solid;
     border-width:2px; 
     border-color: gray;   
-}
+  }
+
+  .table_feature {
+    border-spacing: 25px 0; 
+    border-color: gray;
+  }
 }
 
 /* Section 6*/
@@ -484,7 +489,7 @@ text-align: center;
 }
 
 .section-6-pic-1 img{
-    max-width: 45%;
+    max-width: 55%;
     border: solid;
     border-width:2px; 
     border-color: gray;   
@@ -503,7 +508,7 @@ text-align: center;
   } 
 
   .section-6-pic-1 img{
-    max-width: 55%;
+    max-width: 65%;
     border: solid;
     border-width:2px; 
     border-color: gray;   
@@ -562,7 +567,7 @@ text-align: center;
   } 
 
   .section-7-pic-1 img{
-    max-width: 60%;
+    max-width: 75%;
     border: solid;
     border-width:2px; 
     border-color: gray;   
@@ -652,7 +657,7 @@ text-align: center;
   } 
 
   .section-8-pic-1 img{
-    max-width: 60%;
+    max-width: 75%;
     border: solid;
     border-width:2px; 
     border-color: gray;   
@@ -929,7 +934,7 @@ text-align: center;
   } 
 
   .section-9-pic-1 img{
-    max-width: 60%;
+    max-width: 75%;
     border: solid;
     border-width:2px; 
     border-color: gray;   
