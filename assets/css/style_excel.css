@@ -81,7 +81,8 @@ nav {
       font-weight: 600;
       display: inline-flex;
       gap: 1.5em;
-      border: solid red;      
+      padding: 100px;
+      border: solid blue;      
   }
   
     .nav-links a {
