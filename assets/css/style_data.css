@@ -96,10 +96,6 @@ nav {
       color: var(--navbar-link-active-color);
     }
     
-    .nav-logo img {
-      width: var(--navbar-logo-size);
-      border: none;      
-    }
   
   /* Dropdown Content - NavBar */
   .dropdown-content {
