@@ -71,7 +71,7 @@ nav {
     background-color: var(--secondary-bg-color);
     width: 100%;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 10px;
     padding-bottom: 5px;
     font-family: var(--navbar-font), var(--navbar-callback-font);
