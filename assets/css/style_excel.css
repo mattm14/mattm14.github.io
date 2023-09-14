@@ -104,8 +104,7 @@ nav {
     }
     
     .nav-logo img {
-      width: var(--navbar-logo-size);
-      border: none;      
+      display: none;     
     }
   
   /* Dropdown Content - NavBar */
