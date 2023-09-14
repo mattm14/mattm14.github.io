@@ -939,6 +939,10 @@ hr {
   }
   
   .copyright {
+    @media (max-width: 1200px) { 
+      font-size: 0.6em !important;  
+    }
+
     @media (max-width: 600px) { 
       font-size: 0.6em !important;  
     }
