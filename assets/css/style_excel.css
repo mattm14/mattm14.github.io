@@ -622,6 +622,18 @@ hr {
     margin-right: 50px; 
 }
 
+@media (max-width: 1200px) {
+  .section-calendar ul{
+    margin-left: 120px;     
+    margin-right: 25px;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1em;
+    padding-left: 50px;  
+}
+}
+
 @media (max-width: 600px) {
   .section-calendar{
     padding-bottom: 0px;
