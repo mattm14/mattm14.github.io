@@ -80,10 +80,16 @@ nav {
   
     .nav-links {
       font-weight: 600;
-      display: inline-flex;
-      gap: 5em;
+      display: flex;
+      gap: 1em;
       border: solid blue;
-    }
+
+      
+      @media (max-width: 1200px) {
+        gap: 5em;
+        border: solid orange;
+        }   
+  }
   
     .nav-links a {
       transition: color 0.25s;
@@ -529,7 +535,7 @@ hr {
 }
 
 #invoice {
-  scroll-margin-top: 0px; 
+  scroll-margin-top: 50px; 
  }
 
 @media (max-width: 1200px) {
