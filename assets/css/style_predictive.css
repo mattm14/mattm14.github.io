@@ -740,8 +740,8 @@ text-align: center;
         border-spacing: 30px 0;	
       }
 
-      @media (max-width: 1000px) {    
-        border-spacing: 25px 0;	
+      @media (max-width: 1024px) {    
+        border-spacing: 15px 0;	
       }    
 
       /* Switch to block format */
@@ -852,8 +852,8 @@ text-align: center;
 
   }
 
-  @media (max-width: 1000px) {   
-    border-spacing: 5px 0;
+  @media (max-width: 1024px) {   
+    border-spacing: 2px 0;
 
   }
 
