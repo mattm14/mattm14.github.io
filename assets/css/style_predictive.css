@@ -82,9 +82,10 @@ nav {
     .nav-links {
       font-weight: 600;
       display: flex;
-      gap: 1em;
     }
-  
+
+.nav-links > * + * { margin-left: 1rem;}
+
     .nav-links a {
       transition: color 0.25s;
     }
