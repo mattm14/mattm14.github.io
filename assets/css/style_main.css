@@ -95,8 +95,8 @@ nav {
 
   @media (max-width: 768px) {
       .nav-logo img {
-          width: 12vw;
-          border: solid red;
+          width: 10vw;
+          border: solid blue;
         }
   }
 
