@@ -101,7 +101,13 @@ nav {
       width: var(--navbar-logo-size);
       border: none;      
     }
-  
+
+  @media (max-width: 1024px) {
+      .nav-logo img {
+          width: 17vw;          
+        }
+  }
+
   /* Dropdown Content - NavBar */
   .dropdown-content {
     display: none;
