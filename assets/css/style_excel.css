@@ -568,11 +568,11 @@ hr {
     }
 }
 
-@media (max-width: 1024px) and (-webkit-min-device-pixel-ratio:0) {
+@media (max-width: 1024px) {
    #invoice {
-        margin-top: -3ex;
-        padding-top: 3ex;
-            border: solid red;
+scroll-margin-top: 150px;
+       scroll-snap-margin-top: 150px;
+       border: solid blue;
     }  
   }
 
