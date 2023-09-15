@@ -568,12 +568,14 @@ hr {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (-webkit-min-device-pixel-ratio:0) {
    #invoice {
-    scroll-snap-margin-top: 150px;
-       border: solid purple;
+        margin-top: -3ex;
+        padding-top: 3ex;
+            border: solid red;
+    }  
   }
-}
+
     
 @media (max-width: 600px) {
   .section-invoice{
