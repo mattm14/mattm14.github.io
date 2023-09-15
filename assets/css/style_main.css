@@ -67,6 +67,11 @@ nav {
     font-weight: 600;
     display: flex;
       border: solid red;
+
+            @media (max-width: 1200px) {
+          border: solid blue;
+    }
+      
   }
 
 .nav-links > * + * { margin-left: 1rem;}
