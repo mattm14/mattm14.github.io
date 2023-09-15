@@ -645,8 +645,7 @@ text-align: center;
 
     @media (max-width: 925px) {   
       .table_bets {
-        border-spacing: 50px 0; 
-          border: solid orange;
+        border-spacing: 50px 0;
     }
 }
 
