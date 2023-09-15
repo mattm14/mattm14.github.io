@@ -87,7 +87,7 @@ nav {
     width: var(--navbar-logo-size);
     border: none;      
 
-      @media (max-width: 1640px) {
+      @media (max-width: 1200px) {
           width: 14vw;
           border: solid red;
     }
