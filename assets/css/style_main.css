@@ -66,13 +66,14 @@ nav {
   .nav-links {
     font-weight: 600;
     display: flex;
-      border: solid red;
-
-            @media (max-width: 1200px) {
-          border: solid blue;
-    }
-      
+      border: solid red;     
   }
+
+    @media (max-width: 1200px) {
+        .nav-links {
+            border: solid blue;
+        }
+    }
 
 .nav-links > * + * { margin-left: 1rem;}
 
