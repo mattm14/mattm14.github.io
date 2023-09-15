@@ -741,19 +741,24 @@ text-align: center;
       @media (max-width: 1200px) {    
         .table1 {
           border-spacing: 40px 0;	
+            font-size: 12px;
+            border: solid blue;
       }
       }
 
       @media (max-width: 1100px) {    
        .table1 {
-          border-spacing: 30px 0;	
+          border-spacing: 30px 0;
+           font-size: 12px;
+            border: solid red;
       }
       }
 
       @media (max-width: 1024px) {    
         .table1 {
           border-spacing: 15px 0;	
-        border: solid red;
+        font-size: 12px;
+            border: solid purple;
       }    
       }
 
