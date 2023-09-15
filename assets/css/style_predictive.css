@@ -856,18 +856,21 @@ text-align: center;
   }
 
   @media (max-width: 1200px) {   
-    border-spacing: 20px 0;
-
+.table2 {
+      border-spacing: 20px 0;
+}
   }
 
   @media (max-width: 1150px) {   
-    border-spacing: 15px 0;
-
+    .table2 {
+      border-spacing: 15px 0;
+    }
   }
 
   @media (max-width: 1100px) {   
-    border-spacing: 10px 0;
-
+    .table2 {
+      border-spacing: 10px 0;
+    }
   }
 
   @media (max-width: 1024px) {   
