@@ -106,7 +106,6 @@ nav {
   @media (max-width: 1024px) {
       .nav-logo img {
           width: 17vw;    
-          border: solid red;
         }
   }
 
@@ -571,8 +570,8 @@ hr {
 
 @media (max-width: 1024px) {
    #invoice {
-    scroll-margin-top: 50px; 
-       border: solid red;
+    scroll-margin-top: 150px; 
+       border: solid blue;
   }
 }
     
