@@ -66,6 +66,7 @@ nav {
   .nav-links {
     font-weight: 600;
     display: flex;
+      border: solid red;
   }
 
 .nav-links > * + * { margin-left: 1rem;}
