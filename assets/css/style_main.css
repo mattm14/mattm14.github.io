@@ -88,10 +88,11 @@ nav {
   }
 
   @media (max-width: 1024px) {
-      .nav-logo img
+      .nav-logo img {
           width: 14vw;
           border: solid red;
-    }
+        }
+  }
 
 /* Dropdown Content - NavBar */
 .dropdown-content {
