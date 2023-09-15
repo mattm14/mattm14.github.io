@@ -737,23 +737,30 @@ text-align: center;
     margin-bottom: 25px;
     table-layout: fixed;  
     border-spacing: 50px 0;
-
+}
       @media (max-width: 1200px) {    
-        border-spacing: 40px 0;	
+        .table1 {
+          border-spacing: 40px 0;	
+      }
       }
 
       @media (max-width: 1100px) {    
-        border-spacing: 30px 0;	
+       .table1 {
+          border-spacing: 30px 0;	
+      }
       }
 
       @media (max-width: 1024px) {    
-        border-spacing: 15px 0;	
+        .table1 {
+          border-spacing: 15px 0;	
         border: solid red;
       }    
+      }
 
       /* Switch to block format */
       @media (max-width: 925px) {   
-        border-spacing: 0;
+       .table1 {
+          border-spacing: 0;
         margin-left: auto;
         margin-right: auto;
         border: 2px solid grey;
@@ -837,11 +844,15 @@ text-align: center;
 
 
   @media (max-width: 1430px) {    
-    border-spacing: 40px 0;
+    .table2 {
+      border-spacing: 40px 0;
   }
-
+  }
+    
   @media (max-width: 1310px) {    
-    border-spacing: 30px 0;
+    .table2 {
+      border-spacing: 30px 0;
+  }
   }
 
   @media (max-width: 1200px) {   
@@ -860,19 +871,22 @@ text-align: center;
   }
 
   @media (max-width: 1024px) {   
-    border-spacing: 2px 0;
+    .table2 {
+      border-spacing: 2px 0;
       border: solid red;
-
+    }
   }
 
   @media (max-width: 950px) {   
-    border-spacing: 3px 0;
-
+    .table2 {
+      border-spacing: 3px 0;
+    }
   }
 
       /* Switch to block format */
       @media (max-width: 925px) {   
-        border-spacing: 0;
+        .table2 {
+          border-spacing: 0;
         margin-left: auto;
         margin-right: auto;
         border: 2px solid grey;
