@@ -872,22 +872,21 @@ text-align: center;
   @media (max-width: 1100px) {   
     .table2 {
       border-spacing: 10px 0;
-        border: solid blue;
+
     }
   }
 
   @media (max-width: 1024px) {   
     .table2 {
-      border-spacing: 2px 0;
+      border-spacing: 15px 0;
         font-size: 12px;
-      border: solid purple;
+      border: solid orange;
     }
   }
 
   @media (max-width: 950px) {   
     .table2 {
       border-spacing: 3px 0;
-        border: solid pink;
     }
   }
 
