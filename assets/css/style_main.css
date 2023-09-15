@@ -85,7 +85,12 @@ nav {
   .nav-logo img {
     width: var(--navbar-logo-size);
     border: none;      
-  }
+
+      @media (max-width: 1200px) {
+          width: 14vw;
+          border: solid red;
+    }
+}
 
 /* Dropdown Content - NavBar */
 .dropdown-content {
