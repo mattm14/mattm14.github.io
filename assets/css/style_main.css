@@ -95,7 +95,8 @@ nav {
 
   @media (max-width: 768px) {
       .nav-logo img {
-          width: 9vw;
+          width: 7vw;
+          border: solid red;
         }
   }
 
@@ -200,7 +201,8 @@ li {
 
  @media (max-width: 768px) {
     .banner-text h1 {
-        font-size: 16px;
+        font-size: 20px;
+        border: solid blue;
         }
     }
 
