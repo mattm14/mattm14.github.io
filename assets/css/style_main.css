@@ -184,12 +184,14 @@ li {
 
 .banner-text h1 {
     font-size: var(--main-header-1-font-size);
+}
 
     @media (max-width: 1024px) {
+    .banner-text h1 {
         font-size: 18px;
         border: solid red;
+        }
     }
-}
 
 .banner-text h2 {
     margin-top: -10px;
