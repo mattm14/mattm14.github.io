@@ -82,7 +82,6 @@ nav {
     .nav-links {
       font-weight: 600;
       display:flex;
-      border: solid purple;
  }
 
    .nav-links > * + * { margin-left: 1rem;}
@@ -528,18 +527,7 @@ hr {
     margin-left: 150px;
     margin-right: 50px;
     margin-bottom: 10px; /* between paragraphs */
-}
-
-  #invoice {
-    scroll-margin-top: 50ex;
-    outline: 0 none;
-
-    @media screen and (-webkit-min-device-pixel-ratio:0) {
-        margin-top: 50ex;
-        padding-top: 50ex;
-    }
-}
-   
+}  
 
 @media (max-width: 1200px) {
     .section-invoice {
