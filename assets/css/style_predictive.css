@@ -742,6 +742,7 @@ text-align: center;
 
       @media (max-width: 1024px) {    
         border-spacing: 15px 0;	
+        border: solid red;
       }    
 
       /* Switch to block format */
@@ -854,6 +855,7 @@ text-align: center;
 
   @media (max-width: 1024px) {   
     border-spacing: 2px 0;
+      border: solid red;
 
   }
 
