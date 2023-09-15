@@ -105,7 +105,8 @@ nav {
 
   @media (max-width: 1024px) {
       .nav-logo img {
-          width: 17vw;          
+          width: 17vw;    
+          border: solid red;
         }
   }
 
