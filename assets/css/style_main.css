@@ -69,7 +69,7 @@ nav {
       border: solid red;     
   }
 
-    @media (max-width: 1200px) {
+    @media (max-width: 1400px) {
         .nav-links {
             border: solid blue;
         }
