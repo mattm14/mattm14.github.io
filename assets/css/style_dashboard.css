@@ -80,9 +80,10 @@ nav {
   
     .nav-links {
       font-weight: 600;
-      display: flex;
-      gap: 1em;
+      display: flex;      
     }
+
+     .nav-links > * + * { margin-left: 1rem;}
   
     .nav-links a {
       transition: color 0.25s;
@@ -288,6 +289,7 @@ hr {
 
     .section-BDM img{
         max-width: 50%;
+        height: auto;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 20px;
@@ -378,6 +380,7 @@ hr {
 
     .section-Finance img{
         max-width: 50%;
+        height: auto;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 0;
@@ -461,6 +464,7 @@ hr {
 
     .section-events img{
         max-width: 50%;
+        height: auto;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 0px;
