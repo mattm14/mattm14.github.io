@@ -213,7 +213,6 @@ li {
     @media (max-width: 1024px) {
     .banner-text h2 {
         font-size: 20px;        
-        border: solid orange;
         }
     }
 
