@@ -189,7 +189,6 @@ li {
     @media (max-width: 1024px) {
     .banner-text h1 {
         font-size: 18px;
-        border: solid red;
         }
     }
 
@@ -198,6 +197,12 @@ li {
     font-weight: 300;
     font-size: var(--main-header-2-font-size);
 }
+
+    @media (max-width: 1024px) {
+    .banner-text h2 {
+        font-size: 18px;        
+        }
+    }
 
 .fade-in {
   animation: fadeIn ease 5s;
