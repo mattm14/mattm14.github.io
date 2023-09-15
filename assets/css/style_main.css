@@ -89,8 +89,7 @@ nav {
 
   @media (max-width: 1024px) {
       .nav-logo img {
-          width: 17vw;
-          border: solid purple;
+          width: 17vw;          
         }
   }
 
@@ -185,6 +184,11 @@ li {
 
 .banner-text h1 {
     font-size: var(--main-header-1-font-size);
+
+    @media (max-width: 1024px) {
+        font-size: 18px;
+        border: solid red;
+    }
 }
 
 .banner-text h2 {
