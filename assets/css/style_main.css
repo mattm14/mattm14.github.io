@@ -96,7 +96,7 @@ nav {
   @media (max-width: 768px) {
       .nav-logo img {
           width: 9vw;
-          border: solid orange;
+          border: solid blue;
         }
   }
 
@@ -214,14 +214,15 @@ li {
 
     @media (max-width: 1024px) {
     .banner-text h2 {
-        font-size: 18px;        
+        font-size: 20px;        
+        border: solid orange;
         }
     }
 
     @media (max-width: 768px) {
     .banner-text h2 {
-        font-size: 16px;
-        border: solid blue;
+        font-size: 20px;
+        border: solid pink;
         }
     }
 
