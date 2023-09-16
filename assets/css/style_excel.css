@@ -42,6 +42,7 @@
     html {
         font-size: --main-font-size;
         scroll-behavior: smooth;
+         scroll-snap-type: y mandatory;
     
     /* For Desktop View - SCROLL */
     @media screen and (min-width: 1024px) {
@@ -569,10 +570,11 @@ hr {
 }
 
 @media (max-width: 1024px) {
-    #invoice { scroll-margin-top: 130px; }
-    #invoice::-webkit-full-page-media, #invoice:future, #invoice:root .safari_only { padding-top: 130px;}
-    #invoice {border: solid red; }
-    }  
+    #invoice {
+          scroll-snap-align: start;
+        border: solid brown;
+    }
+}
   
 
     
