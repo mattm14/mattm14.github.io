@@ -571,7 +571,7 @@ hr {
 @media (max-width: 1024px) {
     #invoice { scroll-margin-top: 130px; }
     #invoice::-webkit-full-page-media, #invoice:future, #invoice:root .safari_only { padding-top: 130px;}
-    #invoice {border: solid blue; }
+    #invoice {border: solid red; }
     }  
   
 
