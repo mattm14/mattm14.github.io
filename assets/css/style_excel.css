@@ -570,9 +570,8 @@ hr {
 
 @media (max-width: 1024px) {
    #invoice {
-scroll-margin-top: 150px;
        scroll-snap-margin-top: 150px;
-       border: solid blue;
+       border: solid red;
     }  
   }
 
